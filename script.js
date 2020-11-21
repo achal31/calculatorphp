@@ -18,14 +18,17 @@ $(document).ready(function() {
             else {
                 variable1 += this.value;
                 $("#panel").val(variable1);
+
             }
         } else {
             /*-----------Condition To set operator value----------------*/
             if (operator == "") {
+
                 operator = this.value;
             } else {
                 /*------Condition to set operator when it is clicked twice or more times------*/
                 if (variable2 == "") {
+
                     operator = this.value;
                 } else {
 

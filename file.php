@@ -11,8 +11,13 @@ switch($operator)
         echo $tempVariable1;
         break;
 
-        case 'divide':$tempVariable1=($tempVariable1)/($tempVariable2);
+        case 'divide':if($tempVariable2==0)
+        {
+            echo "";
+        }else{
+            $tempVariable1=($tempVariable1)/($tempVariable2);
         echo $tempVariable1;
+        }
         break;
 
         case 'multiply':$tempVariable1=($tempVariable1)*($tempVariable2);
