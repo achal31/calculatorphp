@@ -1,0 +1,49 @@
+#head {
+    text-align: center;
+}
+
+#panel {
+    background-color: black;
+    color: white;
+    text-align: right;
+    width: 470px;
+    padding: 20px 0px 20px 0px;
+    font-size: 45px;
+    font-family: 'digital-7';
+}
+
+td {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+table {
+    margin: 6% 0% 0% 35%;
+}
+
+button {
+    padding: 20px 50px 20px 50px;
+    background-color: transparent;
+}
+
+.operator {
+    background-color: #33b5e5;
+    color: white;
+    border: 0px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.operator:focus {
+    outline: 0px;
+}
+
+.value {
+    background-color: #E0E0E0;
+    color: black;
+    border: 0px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.value:focus {
+    outline: 0px;
+}
